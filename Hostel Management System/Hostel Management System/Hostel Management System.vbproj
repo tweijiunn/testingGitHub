@@ -109,6 +109,11 @@
     <Compile Include="frmUpdateStudent.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="HostelManagementDatabaseDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelManagementDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -152,6 +157,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="HostelManagementDatabaseDataSet.xsc">
+      <DependentUpon>HostelManagementDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HostelManagementDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelManagementDatabaseDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelManagementDatabaseDataSet.xss">
+      <DependentUpon>HostelManagementDatabaseDataSet.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

@@ -14,3 +14,20 @@ C:\Users\bryan\source\repos\Hostel Management System\Hostel Management System\ob
 C:\Users\bryan\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.frmRegistration.resources
 C:\Users\bryan\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.frmPayment.resources
 C:\Users\bryan\source\repos\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.frmUpdatePayment.resources
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.vbprojResolveAssemblyReference.cache
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.frmHomePage.resources
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.frmLogin.resources
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.frmPayment.resources
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.frmRegistration.resources
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.frmUpdatePayment.resources
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.frmUpdateStudent.resources
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel_Management_System.Resources.resources
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.vbproj.GenerateResource.cache
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.vbproj.CoreCompileInputs.cache
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.exe
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.xml
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\obj\Debug\Hostel Management System.pdb
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.exe.config
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.exe
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.pdb
+C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Hostel Management System\bin\Debug\Hostel Management System.xml

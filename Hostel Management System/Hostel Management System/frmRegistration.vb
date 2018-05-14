@@ -8,7 +8,7 @@
         txtLastName.Text = "Last Name"
         txtContactNumber.Clear()
         txtEmailAddress.Clear()
-        txtUnitID.Clear()
+
     End Sub
 
     Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancelRegistration.Click
@@ -19,7 +19,7 @@
         txtLastName.Text = "Last Name"
         txtContactNumber.Clear()
         txtEmailAddress.Clear()
-        txtUnitID.Clear()
+
     End Sub
 
     Private Sub txtFirstName_TextChanged(sender As Object, e As EventArgs) Handles txtFirstName.TextChanged

@@ -1,5 +1,8 @@
-﻿Public Class frmLogin
-
+﻿Imports System.Data.OleDb
+Public Class frmLogin
+    Dim connection As OleDbConnection = New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Database\HostelManagementDatabase.mdb")
+    Dim command As OleDbCommand
+    Dim reader As OleDbDataReader
 
     Private Sub picLogo_Click(sender As Object, e As EventArgs) Handles picLogo.Click
 
@@ -8,6 +11,7 @@
     Private Sub frmLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         frmHomePage.btnReport.Hide()
         frmHomePage.btnReportIcon.Hide()
+        connection.Open()
     End Sub
 
     Private Sub txtPassword_TextChanged(sender As Object, e As EventArgs) Handles txtPassword.TextChanged
@@ -19,19 +23,14 @@
     End Sub
 
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
-        If txtUser.Text = "TP045928" And txtPassword.Text = "321" Then
-            Me.Hide()
-            frmHomePage.Show()
-        ElseIf txtUser.Text = "TP046118" And txtPassword.Text = "321" Then
-            Me.Hide()
-            frmHomePage.Show()
-            frmHomePage.btnReportIcon.Show()
-            frmHomePage.btnReport.Show()
+        command = New OleDbCommand("Select * From Credentials Where Username ='" + txtUser.Text + "' and Password='" + txtPassword.Text + "'", connection)
+        reader = command.ExecuteReader
+        If reader.Read() Then
+            MessageBox.Show("Login successfully.")
         Else
-            Console.Beep()
-            MessageBox.Show("Login failed! Please try again.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End If
+            MessageBox.Show("Wrong username & password.")
 
+        End If
 
     End Sub
 
