@@ -1,8 +1,9 @@
 ﻿Imports System.Data.OleDb
+
 Public Class frmRegistration
     Dim indicator As Integer
 
-    Dim connection As OleDbConnection = New OleDbConnection("Provider=Microsoft.JET.OLEDB.4.0;Data Source=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Law Twei Jiunn\Desktop\Hostel Management System\Database\DB\HostelManagementDatabase.mdb")
+    Dim connection As OleDbConnection = New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Database\DB\HostelManagementDatabase.mdb")
     Dim command As OleDbCommand
 
 
@@ -45,7 +46,7 @@ Public Class frmRegistration
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSaveRegistration.Click
 
-        command = New OleDbCommand("Insert into Student([Student ID],[Intake Code],[Student First Name],[Student Last Name],[Contact Number],[E-mail Address]) Values ('@StudentID','@IntakeCode','@FirstName','@LastName','@ContactNumber','@Email')", connection)
+        command = New OleDbCommand("Insert into Students ([StudentID],[IntakeCode],[StudentFirstName],[StudentLastName],[ContactNumber],[E-mailAddress]) Values ('@StudentID','@IntakeCode','@FirstName','@LastName','@ContactNumber','@Email')", connection)
         command.Parameters.AddWithValue("@StudentID", txtStudentIDRegistration.Text)
         command.Parameters.AddWithValue("@IntakeCode", txtIntakeCode.Text)
         command.Parameters.AddWithValue("@FirstName", txtFirstName.Text)
