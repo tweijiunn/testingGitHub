@@ -1,6 +1,7 @@
 ﻿Imports System.Data.OleDb
 Public Class frmLogin
-    Dim connection As OleDbConnection = New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Database\HostelManagementDatabase.mdb")
+
+    Dim connection As OleDbConnection = New OleDbConnection("Provider=Microsoft.JET.OLEDB.4.0;Data Source=C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Database\DB\HostelManagementDatabase.mdb")
     Dim command As OleDbCommand
     Dim reader As OleDbDataReader
 
@@ -27,6 +28,10 @@ Public Class frmLogin
         reader = command.ExecuteReader
         If reader.Read() Then
             MessageBox.Show("Login successfully.")
+            connection.Close()
+            frmRegistration.Show()
+            Me.Hide()
+            frmRegistration.Show()
         Else
             MessageBox.Show("Wrong username & password.")
 

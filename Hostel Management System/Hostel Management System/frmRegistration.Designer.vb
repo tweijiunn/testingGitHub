@@ -51,9 +51,10 @@ Partial Class frmRegistration
         Me.btnSaveRegistration.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSaveRegistration.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSaveRegistration.ForeColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(242, Byte), Integer))
-        Me.btnSaveRegistration.Location = New System.Drawing.Point(487, 553)
+        Me.btnSaveRegistration.Location = New System.Drawing.Point(548, 691)
+        Me.btnSaveRegistration.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnSaveRegistration.Name = "btnSaveRegistration"
-        Me.btnSaveRegistration.Size = New System.Drawing.Size(134, 43)
+        Me.btnSaveRegistration.Size = New System.Drawing.Size(151, 54)
         Me.btnSaveRegistration.TabIndex = 29
         Me.btnSaveRegistration.Text = "Save"
         Me.btnSaveRegistration.UseVisualStyleBackColor = True
@@ -64,9 +65,9 @@ Partial Class frmRegistration
         Me.lblTitleRegistration.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lblTitleRegistration.Font = New System.Drawing.Font("Century Gothic", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTitleRegistration.ForeColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(235, Byte), Integer))
-        Me.lblTitleRegistration.Location = New System.Drawing.Point(56, 65)
+        Me.lblTitleRegistration.Location = New System.Drawing.Point(63, 81)
         Me.lblTitleRegistration.Name = "lblTitleRegistration"
-        Me.lblTitleRegistration.Size = New System.Drawing.Size(437, 49)
+        Me.lblTitleRegistration.Size = New System.Drawing.Size(512, 58)
         Me.lblTitleRegistration.TabIndex = 28
         Me.lblTitleRegistration.Text = "Register New Student"
         '
@@ -76,9 +77,9 @@ Partial Class frmRegistration
         Me.lblUnitID.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lblUnitID.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblUnitID.ForeColor = System.Drawing.Color.White
-        Me.lblUnitID.Location = New System.Drawing.Point(56, 473)
+        Me.lblUnitID.Location = New System.Drawing.Point(63, 591)
         Me.lblUnitID.Name = "lblUnitID"
-        Me.lblUnitID.Size = New System.Drawing.Size(90, 29)
+        Me.lblUnitID.Size = New System.Drawing.Size(108, 32)
         Me.lblUnitID.TabIndex = 27
         Me.lblUnitID.Text = "Unit ID:"
         '
@@ -88,9 +89,9 @@ Partial Class frmRegistration
         Me.lblEmailAddress.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lblEmailAddress.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblEmailAddress.ForeColor = System.Drawing.Color.White
-        Me.lblEmailAddress.Location = New System.Drawing.Point(56, 367)
+        Me.lblEmailAddress.Location = New System.Drawing.Point(63, 459)
         Me.lblEmailAddress.Name = "lblEmailAddress"
-        Me.lblEmailAddress.Size = New System.Drawing.Size(183, 29)
+        Me.lblEmailAddress.Size = New System.Drawing.Size(215, 32)
         Me.lblEmailAddress.TabIndex = 26
         Me.lblEmailAddress.Text = "E-mail Address:"
         '
@@ -100,9 +101,9 @@ Partial Class frmRegistration
         Me.lblContactNumber.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lblContactNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblContactNumber.ForeColor = System.Drawing.Color.White
-        Me.lblContactNumber.Location = New System.Drawing.Point(56, 314)
+        Me.lblContactNumber.Location = New System.Drawing.Point(63, 392)
         Me.lblContactNumber.Name = "lblContactNumber"
-        Me.lblContactNumber.Size = New System.Drawing.Size(193, 29)
+        Me.lblContactNumber.Size = New System.Drawing.Size(228, 32)
         Me.lblContactNumber.TabIndex = 25
         Me.lblContactNumber.Text = "Contact Number:"
         '
@@ -112,9 +113,9 @@ Partial Class frmRegistration
         Me.lblName.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lblName.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblName.ForeColor = System.Drawing.Color.White
-        Me.lblName.Location = New System.Drawing.Point(56, 261)
+        Me.lblName.Location = New System.Drawing.Point(63, 326)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(84, 29)
+        Me.lblName.Size = New System.Drawing.Size(98, 32)
         Me.lblName.TabIndex = 24
         Me.lblName.Text = "Name:"
         '
@@ -124,9 +125,9 @@ Partial Class frmRegistration
         Me.lblIntakeCode.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lblIntakeCode.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblIntakeCode.ForeColor = System.Drawing.Color.White
-        Me.lblIntakeCode.Location = New System.Drawing.Point(56, 206)
+        Me.lblIntakeCode.Location = New System.Drawing.Point(63, 258)
         Me.lblIntakeCode.Name = "lblIntakeCode"
-        Me.lblIntakeCode.Size = New System.Drawing.Size(148, 29)
+        Me.lblIntakeCode.Size = New System.Drawing.Size(175, 32)
         Me.lblIntakeCode.TabIndex = 23
         Me.lblIntakeCode.Text = "Intake Code:"
         '
@@ -136,9 +137,9 @@ Partial Class frmRegistration
         Me.lblStudentIDRegistration.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lblStudentIDRegistration.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblStudentIDRegistration.ForeColor = System.Drawing.Color.White
-        Me.lblStudentIDRegistration.Location = New System.Drawing.Point(56, 153)
+        Me.lblStudentIDRegistration.Location = New System.Drawing.Point(63, 191)
         Me.lblStudentIDRegistration.Name = "lblStudentIDRegistration"
-        Me.lblStudentIDRegistration.Size = New System.Drawing.Size(130, 29)
+        Me.lblStudentIDRegistration.Size = New System.Drawing.Size(156, 32)
         Me.lblStudentIDRegistration.TabIndex = 22
         Me.lblStudentIDRegistration.Text = "Student ID:"
         '
@@ -148,9 +149,10 @@ Partial Class frmRegistration
         Me.txtIntakeCode.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtIntakeCode.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtIntakeCode.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtIntakeCode.Location = New System.Drawing.Point(255, 206)
+        Me.txtIntakeCode.Location = New System.Drawing.Point(287, 258)
+        Me.txtIntakeCode.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtIntakeCode.Name = "txtIntakeCode"
-        Me.txtIntakeCode.Size = New System.Drawing.Size(366, 27)
+        Me.txtIntakeCode.Size = New System.Drawing.Size(412, 32)
         Me.txtIntakeCode.TabIndex = 21
         '
         'txtEmailAddress
@@ -159,9 +161,10 @@ Partial Class frmRegistration
         Me.txtEmailAddress.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtEmailAddress.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtEmailAddress.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtEmailAddress.Location = New System.Drawing.Point(255, 369)
+        Me.txtEmailAddress.Location = New System.Drawing.Point(287, 461)
+        Me.txtEmailAddress.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtEmailAddress.Name = "txtEmailAddress"
-        Me.txtEmailAddress.Size = New System.Drawing.Size(366, 27)
+        Me.txtEmailAddress.Size = New System.Drawing.Size(412, 32)
         Me.txtEmailAddress.TabIndex = 20
         '
         'txtContactNumber
@@ -170,9 +173,10 @@ Partial Class frmRegistration
         Me.txtContactNumber.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtContactNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtContactNumber.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtContactNumber.Location = New System.Drawing.Point(255, 316)
+        Me.txtContactNumber.Location = New System.Drawing.Point(287, 395)
+        Me.txtContactNumber.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtContactNumber.Name = "txtContactNumber"
-        Me.txtContactNumber.Size = New System.Drawing.Size(366, 27)
+        Me.txtContactNumber.Size = New System.Drawing.Size(412, 32)
         Me.txtContactNumber.TabIndex = 18
         '
         'txtFirstName
@@ -181,9 +185,10 @@ Partial Class frmRegistration
         Me.txtFirstName.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtFirstName.Font = New System.Drawing.Font("Century Gothic", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtFirstName.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtFirstName.Location = New System.Drawing.Point(255, 261)
+        Me.txtFirstName.Location = New System.Drawing.Point(287, 326)
+        Me.txtFirstName.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtFirstName.Name = "txtFirstName"
-        Me.txtFirstName.Size = New System.Drawing.Size(173, 29)
+        Me.txtFirstName.Size = New System.Drawing.Size(195, 34)
         Me.txtFirstName.TabIndex = 17
         Me.txtFirstName.Text = "First Name"
         Me.txtFirstName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -194,9 +199,10 @@ Partial Class frmRegistration
         Me.txtLastName.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtLastName.Font = New System.Drawing.Font("Century Gothic", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtLastName.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtLastName.Location = New System.Drawing.Point(444, 261)
+        Me.txtLastName.Location = New System.Drawing.Point(500, 326)
+        Me.txtLastName.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtLastName.Name = "txtLastName"
-        Me.txtLastName.Size = New System.Drawing.Size(177, 29)
+        Me.txtLastName.Size = New System.Drawing.Size(199, 34)
         Me.txtLastName.TabIndex = 16
         Me.txtLastName.Text = "Last Name"
         Me.txtLastName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -207,9 +213,10 @@ Partial Class frmRegistration
         Me.txtStudentIDRegistration.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtStudentIDRegistration.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtStudentIDRegistration.ForeColor = System.Drawing.Color.DarkGray
-        Me.txtStudentIDRegistration.Location = New System.Drawing.Point(255, 153)
+        Me.txtStudentIDRegistration.Location = New System.Drawing.Point(287, 191)
+        Me.txtStudentIDRegistration.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtStudentIDRegistration.Name = "txtStudentIDRegistration"
-        Me.txtStudentIDRegistration.Size = New System.Drawing.Size(366, 27)
+        Me.txtStudentIDRegistration.Size = New System.Drawing.Size(412, 32)
         Me.txtStudentIDRegistration.TabIndex = 15
         '
         'btnCancelRegistration
@@ -220,9 +227,10 @@ Partial Class frmRegistration
         Me.btnCancelRegistration.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCancelRegistration.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancelRegistration.ForeColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(242, Byte), Integer))
-        Me.btnCancelRegistration.Location = New System.Drawing.Point(61, 553)
+        Me.btnCancelRegistration.Location = New System.Drawing.Point(69, 691)
+        Me.btnCancelRegistration.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnCancelRegistration.Name = "btnCancelRegistration"
-        Me.btnCancelRegistration.Size = New System.Drawing.Size(134, 43)
+        Me.btnCancelRegistration.Size = New System.Drawing.Size(151, 54)
         Me.btnCancelRegistration.TabIndex = 30
         Me.btnCancelRegistration.Text = "Cancel"
         Me.btnCancelRegistration.UseVisualStyleBackColor = True
@@ -234,9 +242,10 @@ Partial Class frmRegistration
         Me.btnExitRegistration.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnExitRegistration.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnExitRegistration.ForeColor = System.Drawing.Color.FromArgb(CType(CType(102, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(153, Byte), Integer))
-        Me.btnExitRegistration.Location = New System.Drawing.Point(665, 6)
+        Me.btnExitRegistration.Location = New System.Drawing.Point(748, 8)
+        Me.btnExitRegistration.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnExitRegistration.Name = "btnExitRegistration"
-        Me.btnExitRegistration.Size = New System.Drawing.Size(37, 38)
+        Me.btnExitRegistration.Size = New System.Drawing.Size(42, 48)
         Me.btnExitRegistration.TabIndex = 32
         Me.btnExitRegistration.Text = "X"
         Me.btnExitRegistration.UseVisualStyleBackColor = True
@@ -247,9 +256,10 @@ Partial Class frmRegistration
         Me.cmbUnitID.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.cmbUnitID.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbUnitID.FormattingEnabled = True
-        Me.cmbUnitID.Location = New System.Drawing.Point(255, 475)
+        Me.cmbUnitID.Location = New System.Drawing.Point(287, 594)
+        Me.cmbUnitID.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.cmbUnitID.Name = "cmbUnitID"
-        Me.cmbUnitID.Size = New System.Drawing.Size(121, 28)
+        Me.cmbUnitID.Size = New System.Drawing.Size(136, 33)
         Me.cmbUnitID.TabIndex = 33
         '
         'lblUnitType
@@ -258,9 +268,9 @@ Partial Class frmRegistration
         Me.lblUnitType.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lblUnitType.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblUnitType.ForeColor = System.Drawing.Color.White
-        Me.lblUnitType.Location = New System.Drawing.Point(56, 420)
+        Me.lblUnitType.Location = New System.Drawing.Point(63, 525)
         Me.lblUnitType.Name = "lblUnitType"
-        Me.lblUnitType.Size = New System.Drawing.Size(122, 29)
+        Me.lblUnitType.Size = New System.Drawing.Size(144, 32)
         Me.lblUnitType.TabIndex = 34
         Me.lblUnitType.Text = "Unit Type:"
         '
@@ -270,17 +280,18 @@ Partial Class frmRegistration
         Me.cmbUnitType.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.cmbUnitType.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbUnitType.FormattingEnabled = True
-        Me.cmbUnitType.Location = New System.Drawing.Point(255, 422)
+        Me.cmbUnitType.Location = New System.Drawing.Point(287, 528)
+        Me.cmbUnitType.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.cmbUnitType.Name = "cmbUnitType"
-        Me.cmbUnitType.Size = New System.Drawing.Size(147, 28)
+        Me.cmbUnitType.Size = New System.Drawing.Size(165, 33)
         Me.cmbUnitType.TabIndex = 35
         '
         'frmRegistration
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(44, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(704, 649)
+        Me.ClientSize = New System.Drawing.Size(792, 811)
         Me.Controls.Add(Me.cmbUnitType)
         Me.Controls.Add(Me.lblUnitType)
         Me.Controls.Add(Me.cmbUnitID)
@@ -301,6 +312,7 @@ Partial Class frmRegistration
         Me.Controls.Add(Me.txtLastName)
         Me.Controls.Add(Me.txtStudentIDRegistration)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "frmRegistration"
         Me.Text = "frmRegistration"
         Me.ResumeLayout(False)

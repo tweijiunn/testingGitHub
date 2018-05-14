@@ -24,7 +24,6 @@ Partial Class frmPayment
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.txtSearchPayment = New System.Windows.Forms.TextBox()
-        Me.lblPaymentID = New System.Windows.Forms.Label()
         Me.lblStudentIDPayment = New System.Windows.Forms.Label()
         Me.lblUnitID = New System.Windows.Forms.Label()
         Me.lblEntryDate = New System.Windows.Forms.Label()
@@ -42,7 +41,6 @@ Partial Class frmPayment
         Me.txtAmountPaid = New System.Windows.Forms.TextBox()
         Me.txtLoggedBy = New System.Windows.Forms.TextBox()
         Me.txtUnitID = New System.Windows.Forms.TextBox()
-        Me.txtPaymentID = New System.Windows.Forms.TextBox()
         Me.txtStudentIDPayment = New System.Windows.Forms.TextBox()
         Me.txtAmountDue = New System.Windows.Forms.TextBox()
         Me.lblRMAmountPaid = New System.Windows.Forms.Label()
@@ -52,6 +50,8 @@ Partial Class frmPayment
         Me.btnSavePayment = New System.Windows.Forms.Button()
         Me.btnCancelPayment = New System.Windows.Forms.Button()
         Me.lblTitlePayment = New System.Windows.Forms.Label()
+        Me.lblPaymentID = New System.Windows.Forms.Label()
+        Me.txtPaymentID = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'txtSearchPayment
@@ -67,17 +67,6 @@ Partial Class frmPayment
         Me.txtSearchPayment.TabIndex = 0
         Me.txtSearchPayment.Text = "TP Number"
         Me.txtSearchPayment.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'lblPaymentID
-        '
-        Me.lblPaymentID.AutoSize = True
-        Me.lblPaymentID.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPaymentID.ForeColor = System.Drawing.Color.White
-        Me.lblPaymentID.Location = New System.Drawing.Point(21, 289)
-        Me.lblPaymentID.Name = "lblPaymentID"
-        Me.lblPaymentID.Size = New System.Drawing.Size(169, 32)
-        Me.lblPaymentID.TabIndex = 2
-        Me.lblPaymentID.Text = "Payment ID:"
         '
         'lblStudentIDPayment
         '
@@ -268,17 +257,6 @@ Partial Class frmPayment
         Me.txtUnitID.Size = New System.Drawing.Size(282, 32)
         Me.txtUnitID.TabIndex = 32
         '
-        'txtPaymentID
-        '
-        Me.txtPaymentID.BackColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(71, Byte), Integer))
-        Me.txtPaymentID.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtPaymentID.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPaymentID.Location = New System.Drawing.Point(217, 289)
-        Me.txtPaymentID.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.txtPaymentID.Name = "txtPaymentID"
-        Me.txtPaymentID.Size = New System.Drawing.Size(282, 32)
-        Me.txtPaymentID.TabIndex = 33
-        '
         'txtStudentIDPayment
         '
         Me.txtStudentIDPayment.BackColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(71, Byte), Integer))
@@ -392,6 +370,28 @@ Partial Class frmPayment
         Me.lblTitlePayment.TabIndex = 41
         Me.lblTitlePayment.Text = "Rental Payment"
         '
+        'lblPaymentID
+        '
+        Me.lblPaymentID.AutoSize = True
+        Me.lblPaymentID.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPaymentID.ForeColor = System.Drawing.Color.White
+        Me.lblPaymentID.Location = New System.Drawing.Point(21, 289)
+        Me.lblPaymentID.Name = "lblPaymentID"
+        Me.lblPaymentID.Size = New System.Drawing.Size(169, 32)
+        Me.lblPaymentID.TabIndex = 2
+        Me.lblPaymentID.Text = "Payment ID:"
+        '
+        'txtPaymentID
+        '
+        Me.txtPaymentID.BackColor = System.Drawing.Color.FromArgb(CType(CType(56, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(71, Byte), Integer))
+        Me.txtPaymentID.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtPaymentID.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPaymentID.Location = New System.Drawing.Point(217, 289)
+        Me.txtPaymentID.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.txtPaymentID.Name = "txtPaymentID"
+        Me.txtPaymentID.Size = New System.Drawing.Size(282, 32)
+        Me.txtPaymentID.TabIndex = 33
+        '
         'frmPayment
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -437,7 +437,6 @@ Partial Class frmPayment
 
     Friend WithEvents txtSearchPayment As TextBox
     Friend WithEvents btnSearchPayment As Button
-    Friend WithEvents lblPaymentID As Label
     Friend WithEvents lblStudentIDPayment As Label
     Friend WithEvents lblUnitID As Label
     Friend WithEvents lblEntryDate As Label
@@ -455,7 +454,6 @@ Partial Class frmPayment
     Friend WithEvents txtAmountPaid As TextBox
     Friend WithEvents txtLoggedBy As TextBox
     Friend WithEvents txtUnitID As TextBox
-    Friend WithEvents txtPaymentID As TextBox
     Friend WithEvents txtStudentIDPayment As TextBox
     Friend WithEvents txtAmountDue As TextBox
     Friend WithEvents lblRMAmountPaid As Label
@@ -464,4 +462,6 @@ Partial Class frmPayment
     Friend WithEvents btnSavePayment As Button
     Friend WithEvents btnCancelPayment As Button
     Friend WithEvents lblTitlePayment As Label
+    Friend WithEvents lblPaymentID As Label
+    Friend WithEvents txtPaymentID As TextBox
 End Class

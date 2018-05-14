@@ -1,5 +1,11 @@
-﻿Public Class frmRegistration
+﻿Imports System.Data.OleDb
+Public Class frmRegistration
     Dim indicator As Integer
+
+    Dim connection As OleDbConnection = New OleDbConnection("Provider=Microsoft.JET.OLEDB.4.0;Data Source=C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Database\DB\HostelManagementDatabase.mdb")
+    Dim command As OleDbCommand
+
+
     Private Sub btnExitHomePage1_Click(sender As Object, e As EventArgs) Handles btnExitRegistration.Click
         Me.Hide()
         txtStudentIDRegistration.Clear()
@@ -38,15 +44,28 @@
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSaveRegistration.Click
-        If txtFirstName.Text = "" And txtLastName.Text = "" Then
-            txtFirstName.Text = "First Name"
-            txtLastName.Text = "Last Name"
-        End If
+
+        command = New OleDbCommand("Insert into Students([Student ID],[Intake Code],[Student First Name],[Student Last Name],[Contact Number],[E-mail Address]) Values (@StudentID,@IntakeCode,@FirstName,@LastName,@ContactNumber,@Email)", connection)
+        command.Parameters.AddWithValue("@StudentID", txtStudentIDRegistration.Text)
+        command.Parameters.AddWithValue("@IntakeCode", txtIntakeCode.Text)
+        command.Parameters.AddWithValue("@FirstName", txtFirstName.Text)
+        command.Parameters.AddWithValue("@LastName", txtLastName.Text)
+        command.Parameters.AddWithValue("@ContactNumber", txtContactNumber.Text)
+        command.Parameters.AddWithValue("@Email", txtEmailAddress.Text)
+        command.CommandType = CommandType.Text
+        command.ExecuteNonQuery()
+
+
+
     End Sub
 
     Private Sub txtLastName_MouseClick(sender As Object, e As MouseEventArgs) Handles txtLastName.MouseClick
         txtLastName.Clear()
         txtLastName.ForeColor = Color.LightGray
+    End Sub
+
+    Private Sub frmRegistration_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        connection.Open()
     End Sub
 End Class
 
