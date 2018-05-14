@@ -1,7 +1,7 @@
 ﻿Imports System.Data.OleDb
 Public Class frmLogin
 
-    Dim connection As OleDbConnection = New OleDbConnection("Provider=Microsoft.JET.OLEDB.4.0;Data Source=C:\Users\Law Twei Jiunn\Desktop\testingGitHub\Hostel Management System\Database\DB\HostelManagementDatabase.mdb")
+    Dim connection As OleDbConnection = New OleDbConnection("Provider=Microsoft.JET.OLEDB.4.0;Data Source=C:\Users\Law Twei Jiunn\Desktop\DB\HostelManagementDatabase1.mdb")
     Dim command As OleDbCommand
     Dim reader As OleDbDataReader
 
@@ -12,7 +12,8 @@ Public Class frmLogin
     Private Sub frmLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         frmHomePage.btnReport.Hide()
         frmHomePage.btnReportIcon.Hide()
-        connection.Open()
+
+        frmRegistration.Show()
     End Sub
 
     Private Sub txtPassword_TextChanged(sender As Object, e As EventArgs) Handles txtPassword.TextChanged
